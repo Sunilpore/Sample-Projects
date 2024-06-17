@@ -17,6 +17,13 @@ samples, guidance on mobile development, and a full API reference.
 
 
 
-Project Consist
-- Provider State Management
-- Product Cart Example
+Project Consist of
+- Riverpod State Management
+
+
+#[RiverPod Provider]
+ It is an object that encapsulates a piece of state that allows listening to that state.
+- Store some state which can be accessed from multiple location
+- Cache state computation
+- Reduce rebuilds of widgets
+- Code is more testable
