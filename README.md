@@ -20,6 +20,10 @@ samples, guidance on mobile development, and a full API reference.
 Project Consist of
 - Riverpod State Management
 
+#[Types Of RiverPod Providers]
+- Provider
+- State Provider
+
 
 #[RiverPod Provider]
  It is an object that encapsulates a piece of state that allows listening to that state.
