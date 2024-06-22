@@ -21,8 +21,12 @@ Project Consist of
 - Riverpod State Management
 
 #[Types Of RiverPod Providers]
-- Provider
-- State Provider
+1. Provider
+2. State Provider
+3. State Notifier Provider
+ - StateNotifierProvider is a provider that is used to listen to and expose a StateNotifier
+ - StateNotifierProvider Along with StateNotifier is Riverpod's recommended solution for managing state which may change in reaction to a user interaction
+ - Used for centralizing the Business logic in a single place, improving maintainability over time.
 
 
 #[RiverPod Provider]

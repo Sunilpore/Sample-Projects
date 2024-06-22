@@ -1,7 +1,7 @@
-import 'package:ekart/rv_provider.dart';
-import 'package:ekart/rv_state_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'notifier_provider/rv_state_notifier_provider.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const CounterPage(),
     );
   }
 
