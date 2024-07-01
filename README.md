@@ -28,6 +28,8 @@ Project Consist of
  - StateNotifierProvider Along with StateNotifier is Riverpod's recommended solution for managing state which may change in reaction to a user interaction
  - Used for centralizing the Business logic in a single place, improving maintainability over time.
 4. Future Provider
+   - Retrieve data asynchronously using "http" package using FutureProvider
+5. StreamProvider
 
 #[RiverPod Provider]
  It is an object that encapsulates a piece of state that allows listening to that state.
