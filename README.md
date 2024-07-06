@@ -44,6 +44,9 @@ Project Consist of
  We can also implement timeout-based caching strategy to dispose the provider's state after a given duration
 
 
+#[Modifier Types]
+1. Family Modifier
+
 #[RiverPod Provider]
  It is an object that encapsulates a piece of state that allows listening to that state.
 - Store some state which can be accessed from multiple location
