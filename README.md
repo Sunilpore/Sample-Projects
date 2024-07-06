@@ -22,14 +22,27 @@ Project Consist of
 
 #[Types Of RiverPod Providers]
 1. Provider
+
 2. State Provider
+
 3. State Notifier Provider
  - StateNotifierProvider is a provider that is used to listen to and expose a StateNotifier
  - StateNotifierProvider Along with StateNotifier is Riverpod's recommended solution for managing state which may change in reaction to a user interaction
  - Used for centralizing the Business logic in a single place, improving maintainability over time.
+
 4. Future Provider
    - Retrieve data asynchronously using "http" package using FutureProvider
+   
 5. StreamProvider
+
+6. AutoDispose Modifier
+ - Auto dispose destroy the state of a provider when it is no-longer used.
+ - There are multiple reasons for doing so, such as:
+   1. When using Firebase, to close the connection and avoid unnecessary cost.
+   2. To reset the state when the user leaves a screen and re-enters it.
+ The keepAlive function is used to tell Riverpod that the state of the provider should be preserved even if no longer listened to.
+ We can also implement timeout-based caching strategy to dispose the provider's state after a given duration
+
 
 #[RiverPod Provider]
  It is an object that encapsulates a piece of state that allows listening to that state.

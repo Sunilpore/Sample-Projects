@@ -31,6 +31,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #Routing Navigation Library
+  go_router: ^14.2.0
 
   #Provider State Management
   flutter_riverpod: ^2.5.1
