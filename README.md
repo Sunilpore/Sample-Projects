@@ -43,6 +43,8 @@ Project Consist of
  The keepAlive function is used to tell Riverpod that the state of the provider should be preserved even if no longer listened to.
  We can also implement timeout-based caching strategy to dispose the provider's state after a given duration
 
+7. Theme Provider
+ - ThemeProvider is a provider that is used to listen to and expose a ThemeMode
 
 #[Modifier Types]
 1. Family Modifier
