@@ -48,6 +48,8 @@ Project Consist of
 
 #[Modifier Types]
 1. Family Modifier
+2. Select Method
+ - Filtering the widgets rebuild using "Select" method
 
 #[RiverPod Provider]
  It is an object that encapsulates a piece of state that allows listening to that state.
