@@ -37,6 +37,9 @@ dependencies:
   #Provider State Management
   flutter_riverpod: ^2.5.1
 
+  #Used for Riverpod Provider Generator Annotation
+  riverpod_annotation: ^2.3.5
+
   #Used for comparing objects
   equatable: ^2.0.5
 
@@ -57,6 +60,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.11
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

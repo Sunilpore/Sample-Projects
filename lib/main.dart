@@ -1,4 +1,4 @@
-import 'package:ekart/rv_select/customer_page.dart';
+import 'package:ekart/rv_generator/rvg_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CustomerPage(),
+      home: const RVGHomePage(),
     );
   }
 

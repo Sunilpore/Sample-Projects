@@ -57,3 +57,28 @@ Project Consist of
 - Cache state computation
 - Reduce rebuilds of widgets
 - Code is more testable
+
+
+## Riverpod Generator
+ [Why to Use RiverPod Generator]
+ **Problems that occurs when create the Provider manually**
+- When we create lots of Provider manually then its error prone
+- Not auto disposable
+- Family modifier only accept Single parameter
+
+---------------------------------------------------------------------
+ **RiverPod Generator Limits**
+ I] Code Generation
+   Extra files will be generated which will be part of project
+ II] Not all provider types are supported
+   - Provider
+   - FutureProvider
+   - StreamProvider
+   - Notify Modifier
+   - AsyncNotify Provider
+
+   **Below Provider Not Supported for Riverpod Generator**
+   - State Provider
+   - ChangeNotifier Provider
+   - StateNotifier Provider
+---------------------------------------------------------------------
